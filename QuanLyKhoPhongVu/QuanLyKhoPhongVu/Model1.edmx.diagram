@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="00689f38b782424f8241d63bb3ea985f" Name="Diagram1">
+        <EntityTypeShape EntityType="kyngheModel.DanhSachSanPham" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="kyngheModel.HoaDon" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kyngheModel.KhachHang" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kyngheModel.NhanVien" Width="1.5" PointX="5.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kyngheModel.SanPham" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kyngheModel.TaiKhoan" Width="1.5" PointX="8" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="kyngheModel.FK_DanhSachSanPham_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="kyngheModel.FK_DanhSachSanPham_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="kyngheModel.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="kyngheModel.FK_TaiKhoan_NhanVien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
